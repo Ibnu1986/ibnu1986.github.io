@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Ibnu</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<nav>
+  <h2>Ibnu</h2>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+  <img src="ibnu-ngasim.png" class="profile" onclick="openModal(this)">
+  <h1>Halo, Saya <span>Ibnu 👋</span></h1>
+  <p>Web Developer & UI/UX Designer</p>
+</section>
+
+<!-- PROJECT -->
+<section id="project">
+  <h2>Project Saya</h2>
+
+  <div class="project-container">
+
+    <div class="card">
+  <i class="fa-solid fa-code"></i>
+  <h3>Website Portfolio</h3>
+  <p>Website pribadi modern.</p>
+  <button onclick="openDemo('https://example.com')">Demo</button>
+</div>
+
+<div class="card">
+  <i class="fa-solid fa-list-check"></i>
+  <h3>To-Do List</h3>
+  <p>Aplikasi daftar tugas sederhana.</p>
+  <button onclick="openDemo('https://example.com')">Demo</button>
+</div>
+
+<div class="card">
+  <i class="fa-solid fa-calculator"></i>
+  <h3>Kalkulator</h3>
+  <p>Kalkulator berbasis JavaScript.</p>
+  <button onclick="openDemo('https://example.com')">Demo</button>
+</div>
+
+<div class="card">
+  <i class="fa-solid fa-laptop-code"></i>
+  <h3>Landing Page</h3>
+  <p>Website responsive modern.</p>
+  <button onclick="openDemo('https://example.com')">Demo</button>
+</div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="kontak">
+  <h2>Kontak</h2>
+  <p>📞 085876197392</p>
+  <p>📧 ibnungasim6@gmail.com</p>
+</section>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modal-img">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
