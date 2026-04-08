@@ -116,3 +116,40 @@ section.show {
 .card button:hover {
   background: #0ea5e9;
 }
+
+/* SKILL */
+#skill {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill-card {
+  background: #1e293b;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.skill-card:hover {
+  background: #38bdf8;
+  color: black;
+}
+
+/* PENGALAMAN */
+#pengalaman {
+  padding: 40px 20px;
+}
+
+.exp-card {
+  background: #1e293b;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
